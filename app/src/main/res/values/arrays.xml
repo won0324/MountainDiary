@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_color">
+        <item>연두</item>
+        <item>노랑</item>
+        <item>분홍</item>
+    </string-array>
+    <string-array name="my_color_value">
+        <item>#DCEDC8</item>
+        <item>#F3FFF8B8</item>
+        <item>#FFD7D7</item>
+    </string-array>
+
+    <string-array name="notification">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="notification_value">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="sound_notification">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="sound_notification_value">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="night_mode">
+        <item>@string/night_mode_auto</item>
+        <item>@string/night_mode_on</item>
+        <item>@string/night_mode_off</item>
+    </string-array>
+    <string-array name="night_mode_value">
+        <item>@string/pref_night_auto</item>
+        <item>@string/pref_night_on</item>
+        <item>@string/pref_night_off</item>
+    </string-array>
+</resources>

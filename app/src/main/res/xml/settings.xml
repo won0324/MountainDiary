@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <PreferenceCategory
+       app:key="notification"
+       app:title="알림 설정">
+       <ListPreference
+           app:key="noti_push"
+           app:title="푸시 알림"
+           android:entries="@array/notification"
+           app:entryValues="@array/notification_value"/>
+       <ListPreference
+           app:key="noti_sound"
+           app:title="소리 알림"
+           android:entries="@array/sound_notification"
+           app:entryValues="@array/sound_notification_value" />
+   </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="etc"
+        app:title="기타 설정">
+        <EditTextPreference
+            app:key="id"
+            app:title="닉네임 설정" />
+        <ListPreference
+            app:key="color"
+            app:title="색상 선택"
+            android:entries="@array/my_color"
+            app:entryValues="@array/my_color_value" />
+        <ListPreference
+            android:defaultValue="@string/pref_night_auto"
+            android:entries="@array/night_mode"
+            android:entryValues="@array/night_mode_value"
+            app:key="@string/pref_key_night"
+            app:title="폰트 설정" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

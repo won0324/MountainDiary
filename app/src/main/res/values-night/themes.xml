@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MountainDiary2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_300</item>
+        <item name="colorPrimaryDark">@color/green_600</item>
+        <item name="colorPrimaryVariant">@color/green_600</item>
+        <item name="colorAccent">#45C068</item>
+<!--        <item name="colorPrimary">@color/purple_500</item>-->
+<!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/maruburisemibold</item>
+        <item name="android:includeFontPadding">false</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!--헤더 색-->
+        <item name="colorAccent">#45C068</item>
+        <!--오늘 날짜 및 선택한 날짜 동그라미-->
+        <item name="colorControlActivated">#45C068</item>
+        <!-- 취소, 확인 텍스트 색-->
+        <item name="android:textColor">@color/black</item>
+        <!--헤더의 day , month 색-->
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <!-- 헤더의 year 색-->
+        <item name="android:textColorSecondaryInverse">@color/black</item>
+    </style>
+</resources>

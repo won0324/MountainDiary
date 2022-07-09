@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "700810488878",
+    "project_id": "moutaindiary2",
+    "storage_bucket": "moutaindiary2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700810488878:android:dd2d0528a45f9a465dc3bf",
+        "android_client_info": {
+          "package_name": "com.example.mountaindiary2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700810488878-64fbteg88b2bfgt6382qrke7dqra84mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mountaindiary2",
+            "certificate_hash": "7cfd7c3bbd8a29773f8fdeab80c3d66b844c04a8"
+          }
+        },
+        {
+          "client_id": "700810488878-knltb2k962di5kfi2p621tdsi17ifjul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-DI5m3tVL02wbfrYNIYkFbciRLL-rcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700810488878-knltb2k962di5kfi2p621tdsi17ifjul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
